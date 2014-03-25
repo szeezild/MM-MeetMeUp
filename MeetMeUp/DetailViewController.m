@@ -12,13 +12,7 @@
 
 @interface DetailViewController ()
 
-@property (weak, nonatomic) IBOutlet UILabel *rsvpLabel;
 
-@property (weak, nonatomic) IBOutlet UILabel *hostLabel;
-
-@property (weak, nonatomic) IBOutlet UITextView *descriptionTextField;
-
-@property (weak, nonatomic) IBOutlet UILabel *forMoreInfoLabel;
 
 
 @end
@@ -31,16 +25,17 @@
 {
     [super viewDidLoad];
     
-//    self.rsvpLabel.text = [NSString stringWithFormat:@"%@", self.event.rsvp[@"yes_rsvp_count"]];
-//    
-//    self.hostLabel.text = self.event.host;
-//    self.descriptionTextField.text = self.event.description;
-//    self.forMoreInfoLabel.text = self.event.moreInfo;
-//    
+    
+    
+}
+
+
+- (IBAction)moreInfoButton:(id)sender {
     
     
     
 }
+
 
 
 

@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Event.h"
-
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) Event *event;
 
+@property (weak, nonatomic) IBOutlet UILabel *rsvpLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *hostLabel;
+
+@property (weak, nonatomic) IBOutlet UITextView *descriptionTextField;
 
 
 @end

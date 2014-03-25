@@ -22,7 +22,6 @@
 		0795A6DF18E0B9400090D9AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0795A6DD18E0B9400090D9AE /* InfoPlist.strings */; };
 		0795A6E118E0B9400090D9AE /* MeetMeUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0795A6E018E0B9400090D9AE /* MeetMeUpTests.m */; };
 		0795A6EC18E0CE470090D9AE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0795A6EB18E0CE470090D9AE /* DetailViewController.m */; };
-		0795A6EF18E0D9800090D9AE /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 0795A6EE18E0D9800090D9AE /* Event.m */; };
 		0795A6F518E0EA7E0090D9AE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0795A6F418E0EA7E0090D9AE /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -58,8 +57,6 @@
 		0795A6E018E0B9400090D9AE /* MeetMeUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetMeUpTests.m; sourceTree = "<group>"; };
 		0795A6EA18E0CE470090D9AE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		0795A6EB18E0CE470090D9AE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		0795A6ED18E0D9800090D9AE /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
-		0795A6EE18E0D9800090D9AE /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		0795A6F318E0EA7E0090D9AE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		0795A6F418E0EA7E0090D9AE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,8 +123,6 @@
 				0795A6C718E0B9400090D9AE /* Main.storyboard */,
 				0795A6CA18E0B9400090D9AE /* DSViewController.h */,
 				0795A6CB18E0B9400090D9AE /* DSViewController.m */,
-				0795A6ED18E0D9800090D9AE /* Event.h */,
-				0795A6EE18E0D9800090D9AE /* Event.m */,
 				0795A6EA18E0CE470090D9AE /* DetailViewController.h */,
 				0795A6EB18E0CE470090D9AE /* DetailViewController.m */,
 				0795A6CD18E0B9400090D9AE /* Images.xcassets */,
@@ -268,7 +263,6 @@
 				0795A6C218E0B9400090D9AE /* main.m in Sources */,
 				0795A6F518E0EA7E0090D9AE /* WebViewController.m in Sources */,
 				0795A6CC18E0B9400090D9AE /* DSViewController.m in Sources */,
-				0795A6EF18E0D9800090D9AE /* Event.m in Sources */,
 				0795A6C618E0B9400090D9AE /* DSAppDelegate.m in Sources */,
 				0795A6EC18E0CE470090D9AE /* DetailViewController.m in Sources */,
 			);
