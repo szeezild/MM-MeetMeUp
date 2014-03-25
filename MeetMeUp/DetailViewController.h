@@ -8,14 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController  <UIWebViewDelegate>
 
 
-@property (weak, nonatomic) IBOutlet UILabel *rsvpLabel;
+@property NSDictionary *event;
 
-@property (weak, nonatomic) IBOutlet UILabel *hostLabel;
-
-@property (weak, nonatomic) IBOutlet UITextView *descriptionTextField;
+@property NSString *hyperlink;
 
 
 @end

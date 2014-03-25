@@ -8,11 +8,16 @@
 
 #import "DetailViewController.h"
 #import "DSViewController.h"
+#import "WebViewController.h"
 
 
-@interface DetailViewController ()
+@interface DetailViewController () <UIWebViewDelegate>
 
+@property (weak, nonatomic) IBOutlet UILabel *rsvpLabel;
 
+@property (weak, nonatomic) IBOutlet UILabel *hostLabel;
+
+@property (weak, nonatomic) IBOutlet UITextView *descriptionTextField;
 
 
 @end
@@ -25,7 +30,11 @@
 {
     [super viewDidLoad];
     
+    self.rsvpLabel.text = [NSString stringWithFormat:@"%@",self.event[@"yes_rsvp_count"]];
+    self.hostLabel.text = self.event[@"group"][@"name"];
+    self.descriptionTextField.text = self.event[@"description"];
     
+    self.descriptionTextField.scrollEnabled = YES;
     
 }
 
@@ -36,7 +45,15 @@
     
 }
 
-
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    WebViewController *webVC = segue.destinationViewController;
+    
+    webVC.url = self.event[@"event_url"];
+    
+//    NSLog(@"%@", webVC.url);
+    
+}
 
 
 @end

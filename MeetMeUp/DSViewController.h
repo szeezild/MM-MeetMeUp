@@ -10,6 +10,5 @@
 #import "DetailViewController.h"
 
 @interface DSViewController : UIViewController
-//@property (strong, nonatomic) NSDictionary *meetings;
 
 @end
